@@ -1,0 +1,25 @@
+# Local Codex overrides and secrets
+.codex/config.local.toml
+.codex/settings.local.json
+.env
+.env.*
+!.env.example
+
+# IDE and OS
+.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# .NET
+bin/
+obj/
+TestResults/
+*.user
+*.suo
+
+# Angular / Node
+node_modules/
+dist/
+.angular/
+coverage/
