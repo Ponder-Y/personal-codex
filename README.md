@@ -67,9 +67,9 @@ Codex 目前會在以下情況使用 Subagent：
 
 | Agent | 模型 | Reasoning | 權限 | 適合工作 |
 |---|---|---:|---|---|
-| Primary Agent | `gpt-5.6` | high | workspace-write | 規劃、協調、整合 |
+| Primary Agent | `gpt-5.6-sol` | high | workspace-write | 規劃、協調、整合 |
 | explorer | `gpt-5.6-luna` | low | read-only | 搜尋與程式碼導覽 |
-| dotnet_worker | `gpt-5.6` | high | workspace-write | 後端實作 |
+| dotnet_worker | `gpt-5.6-sol` | high | workspace-write | 後端實作 |
 | angular_worker | `gpt-5.6-terra` | medium | workspace-write | 前端實作 |
 | database_reviewer | `gpt-5.6-terra` | high | read-only | SQL 與資料存取審查 |
 | test_runner | `gpt-5.6-luna` | low | workspace-write | Build、lint、test |
